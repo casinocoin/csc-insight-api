@@ -1,13 +1,17 @@
 {
-  "name": "insight-bitcore-api",
+  "name": "csc-insight-api-v0.2",
   "description": "An open-source bitcoin blockchain API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the bitcoin network and build your own services with it.",
   "version": "0.2.11",
   "author": {
-    "name": "Ryan X Charles",
-    "email": "ryan@bitpay.com"
+    "name": "Andre Jochems",
+    "email": "andre.jochems@gmail.com"
   },
-  "repository": "git://github.com/bitpay/insight-api.git",
+  "repository": "git://github.com/casinocoin/csc-insight-api-v0.2.git",
   "contributors": [
+    {
+      "name": "Andre Jochems",
+      "email": "andre.jochems@gmail.com"
+    },
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
@@ -30,15 +34,16 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bitpay/insight-api/issues"
+    "url": "https://github.com/casinocoin/csc-insight-api-v0.2/issues"
   },
-  "homepage": "https://github.com/bitpay/insight-api",
+  "homepage": "https://github.com/casinocoin/csc-insight-api-v0.2",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
+    "casinocoin",
     "blockchain",
-    "bitcoin api",
+    "casinocoin api",
     "blockchain api",
     "json",
     "bitcore"
@@ -54,7 +59,7 @@
     "async": "*",
     "base58-native": "0.1.2",
     "bignum": "*",
-    "bitcore": "git://github.com/bitpay/bitcore.git#aa41c70cff2583d810664c073a324376c39c8b36",
+    "csc-bitcore-v0.1": "=0.1.41",
     "bufferput": "git://github.com/bitpay/node-bufferput.git",
     "buffertools": "*",
     "commander": "^2.3.0",

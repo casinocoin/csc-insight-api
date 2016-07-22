@@ -18,7 +18,7 @@ describe('BlockExtractor', function(){
 
   var be = new BlockExtractor(config.bitcoind.dataDir, config.network);
 
-  var network = config.network === 'testnet' ? networks.testnet: networks.livenet;
+  var network = config.network === 'testnet' ? networks.testnet: networks.cscnet;
 
   it('should glob block files ', function(done) {
     assert(be.files.length>0);

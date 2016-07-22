@@ -274,7 +274,7 @@ Address.prototype.validate = function() {
 Address.prototype.network = function() {
   var version = this.version();
 
-  var livenet = networks.livenet;
+  var livenet = networks.cscnet;
   var testnet = networks.testnet;
 
   var answer;
@@ -294,7 +294,7 @@ Address.prototype.isScript = function() {
 // returns the scriptPubKey
 Address.prototype.getScriptPubKey = function() {
   var version = this.version();
-  var livenet = networks.livenet;
+  var livenet = networks.cscnet;
   var testnet = networks.testnet;
 
   var script;
@@ -1324,7 +1324,7 @@ var BIP0031_VERSION = 60000;
 function Connection(socket, peer, opts) {
   this.config = opts || bitcoreDefaults;
 
-  this.network = networks[this.config.network] || networks.livenet;
+  this.network = networks[this.config.network] || networks.cscnet;
   this.socket = socket;
   this.peer = peer;
 
@@ -3058,7 +3058,7 @@ PrivateKey.prototype.compressed = function(compressed) {
 PrivateKey.prototype.network = function() {
   var version = this.version();
 
-  var livenet = networks.livenet;
+  var livenet = networks.cscnet;
   var testnet = networks.testnet;
 
   var answer;
@@ -6052,7 +6052,7 @@ TransactionBuilder.infoForP2sh = function(opts, networkName) {
   var hash = util.sha256ripe160(script.getBuffer());
 
   var version = networkName === 'testnet' ?
-    networks.testnet.P2SHVersion : networks.livenet.P2SHVersion;
+    networks.testnet.P2SHVersion : networks.cscnet.P2SHVersion;
 
   var addr = new Address(version, hash);
   var addrStr = addr.as('base58');
@@ -6372,7 +6372,7 @@ TransactionBuilder.prototype._checkTx = function() {
 
 TransactionBuilder.prototype._multiFindKey = function(walletKeyMap, pubKeyHash) {
   var wk;
-  [networks.livenet, networks.testnet].forEach(function(n) {
+  [networks.cscnet, networks.testnet].forEach(function(n) {
     [n.addressVersion, n.P2SHVersion].forEach(function(v) {
       var a = new Address(v, pubKeyHash);
       if (!wk && walletKeyMap[a]) {
@@ -7005,7 +7005,7 @@ Wallet.prototype.setNetwork = function(netname) {
   switch (netname) {
     case "mainnet":
     case "livenet":
-      this.network = networks.livenet;
+      this.network = networks.cscnet;
       break;
     case "testnet":
       this.network = networks.testnet;

@@ -27,6 +27,12 @@ if (process.env.INSIGHT_NETWORK === 'livenet') {
   port = '3000';
   b_port = '8332';
   p2p_port = '8333';
+} else if (process.env.INSIGHT_NETWORK === 'cscnet') {
+  env = 'cscnet';
+  db = home;
+  port = '3000';
+  b_port = '9432';
+  p2p_port = '47950';
 } else {
   env = 'testnet';
   db = home + '/testnet';
@@ -49,16 +55,16 @@ switch (process.env.NODE_ENV) {
     break;
 }
 
-var network = process.env.INSIGHT_NETWORK || 'testnet';
+var network = process.env.INSIGHT_NETWORK || 'cscnet';
 
-var dataDir = process.env.BITCOIND_DATADIR;
+var dataDir = process.env.CASINOCOIND_DATADIR;
 var isWin = /^win/.test(process.platform);
 var isMac = /^darwin/.test(process.platform);
 var isLinux = /^linux/.test(process.platform);
 if (!dataDir) {
-  if (isWin) dataDir = '%APPDATA%\\Bitcoin\\';
-  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/Bitcoin/';
-  if (isLinux) dataDir = process.env.HOME + '/.bitcoin/';
+  if (isWin) dataDir = '%APPDATA%\\Casinocoin\\';
+  if (isMac) dataDir = process.env.HOME + '/Library/Application Support/Casinocoin/';
+  if (isLinux) dataDir = process.env.HOME + '/.casinocoin/';
 }
 dataDir += network === 'testnet' ? 'testnet3' : '';
 
@@ -67,13 +73,13 @@ var ignoreCache = process.env.INSIGHT_IGNORE_CACHE || 0;
 
 
 var bitcoindConf = {
-  protocol: process.env.BITCOIND_PROTO || 'http',
-  user: process.env.BITCOIND_USER || 'user',
-  pass: process.env.BITCOIND_PASS || 'pass',
-  host: process.env.BITCOIND_HOST || '127.0.0.1',
-  port: process.env.BITCOIND_PORT || b_port,
-  p2pPort: process.env.BITCOIND_P2P_PORT || p2p_port,
-  p2pHost: process.env.BITCOIND_P2P_HOST || process.env.BITCOIND_HOST || '127.0.0.1',
+  protocol: process.env.CASINOCOIND_PROTO || 'http',
+  user: process.env.CASINOCOIND_USER || 'user',
+  pass: process.env.CASINOCOIND_PASS || 'pass',
+  host: process.env.CASINOCOIND_HOST || '127.0.0.1',
+  port: process.env.CASINOCOIND_PORT || b_port,
+  p2pPort: process.env.CASINOCOIND_P2P_PORT || p2p_port,
+  p2pHost: process.env.CASINOCOIND_P2P_HOST || process.env.CASINOCOIND_HOST || '127.0.0.1',
   dataDir: dataDir,
   // DO NOT CHANGE THIS!
   disableAgent: true
