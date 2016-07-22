@@ -552,7 +552,7 @@ AuthMessage.decode = function(key, encoded, opts) {
 
   try {
     var decryptedhexbuf = AuthMessage._decrypt(key.private, encrypted);
-    var decrypted = new Buffer(decryptedhexbuf.toString(), 'hex'); //workaround for bug in bitcore/sjcl
+    var decrypted = new Buffer(decryptedhexbuf.toString(), 'hex'); //workaround for bug in csc-bitcore-v0.1/sjcl
   } catch (e) {
     throw new Error('Cannot decrypt data: ' + e);
   }
@@ -5226,8 +5226,8 @@ ScriptInterpreter.prototype.isCanonicalSignature = function(sig) {
 
 module.exports = ScriptInterpreter;
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),require("buffer").Buffer)
-},{"../config":"4itQ50","../util":191,"../util/log":"AdF7pF","./Key":"ALJ4PS","./Opcode":"Zm7/h9","./Script":"hQ0t76","/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"bignum":61,"buffer":95,"buffertools":"fugeBw"}],"./lib/ScriptInterpreter":[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),require("buffer").Buffer)
+},{"../config":"4itQ50","../util":191,"../util/log":"AdF7pF","./Key":"ALJ4PS","./Opcode":"Zm7/h9","./Script":"hQ0t76","/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"bignum":61,"buffer":95,"buffertools":"fugeBw"}],"./lib/ScriptInterpreter":[function(require,module,exports){
 module.exports=require('Q/ZWXW');
 },{}],"./lib/Transaction":[function(require,module,exports){
 module.exports=require('LJhYtm');
@@ -13070,8 +13070,8 @@ exports.testnet = {
 
 }());
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112}],83:[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112}],83:[function(require,module,exports){
 (function (Buffer){
 var Chainsaw = require('chainsaw');
 var EventEmitter = require('events').EventEmitter;
@@ -13650,8 +13650,8 @@ function upgradeChainsaw(saw) {
     };
 };
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"events":"T9Wsc/","traverse":86}],86:[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"events":"T9Wsc/","traverse":86}],86:[function(require,module,exports){
 module.exports = Traverse;
 function Traverse (obj) {
     if (!(this instanceof Traverse)) return new Traverse(obj);
@@ -14137,8 +14137,8 @@ exports.getRoot = function getRoot (file) {
   }
 }
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),"/node_modules/bindings/bindings.js")
-},{"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"fs":91,"path":113}],88:[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),"/node_modules/bindings/bindings.js")
+},{"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"fs":91,"path":113}],88:[function(require,module,exports){
 // Utils
 
 function assert(val, msg) {
@@ -17138,8 +17138,8 @@ function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./support/isBuffer":93,"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"inherits":111}],95:[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./support/isBuffer":93,"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"inherits":111}],95:[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -20126,8 +20126,8 @@ var substr = 'ab'.substr(-1) === 'b'
     }
 ;
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112}],114:[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112}],114:[function(require,module,exports){
 (function (global){
 /*! http://mths.be/punycode v1.2.4 by @mathias */
 ;(function(root) {
@@ -22054,8 +22054,8 @@ function indexOf (xs, x) {
   return -1;
 }
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"./index.js":119,"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"buffer":95,"events":"T9Wsc/","inherits":111,"process/browser.js":120,"string_decoder":125}],123:[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"./index.js":119,"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"buffer":95,"events":"T9Wsc/","inherits":111,"process/browser.js":120,"string_decoder":125}],123:[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -23479,7 +23479,7 @@ function parseHost(host) {
 module.exports=require(93)
 },{}],128:[function(require,module,exports){
 module.exports=require(94)
-},{"./support/isBuffer":127,"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"inherits":111}],"aXRuS6":[function(require,module,exports){
+},{"./support/isBuffer":127,"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"inherits":111}],"aXRuS6":[function(require,module,exports){
 (function (Buffer){
 function BufferPut () {
   this.words = [];
@@ -40816,8 +40816,8 @@ if (typeof module !== 'undefined' && "exports" in module) {
   module.exports = Step;
 }
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
-},{"/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112}],"kytKTK":[function(require,module,exports){
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"))
+},{"/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112}],"kytKTK":[function(require,module,exports){
 (function (Buffer){
 exports.patch = function(Buffers) {
   Buffers.prototype.skip = function (i) {
@@ -41837,5 +41837,5 @@ exports.BIT = 100;
 
 var MAX_TARGET = exports.MAX_TARGET = new Buffer('00000000FFFF0000000000000000000000000000000000000000000000000000', 'hex');
 
-}).call(this,require("/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),require("buffer").Buffer)
-},{"../lib/sjcl":"oLMOpG","/home/maraoz/git/bitcore/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"bignum":61,"binary":83,"buffer":95,"bufferput":"aXRuS6","buffertools":"fugeBw","crypto":99,"hash.js":155}]},{},[])
+}).call(this,require("/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),require("buffer").Buffer)
+},{"../lib/sjcl":"oLMOpG","/home/maraoz/git/csc-bitcore-v0.1/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":112,"bignum":61,"binary":83,"buffer":95,"bufferput":"aXRuS6","buffertools":"fugeBw","crypto":99,"hash.js":155}]},{},[])

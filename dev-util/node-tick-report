@@ -70,7 +70,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      27    0.1%    0.6%  LazyCompile: <anonymous> native string.js:36
      27    0.1%    0.6%  LazyCompile: *getOwnPropertyDescriptor native v8natives.js:946
      25    0.1%    0.5%  LazyCompile: *toString native v8natives.js:1378
-     25    0.1%    0.5%  LazyCompile: *isCoinBase /Users/ematiu/devel/node/bitcore/lib/Transaction.js:49
+     25    0.1%    0.5%  LazyCompile: *isCoinBase /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:49
      25    0.1%    0.5%  LazyCompile: *formatPrimitive util.js:304
      24    0.1%    0.5%  LazyCompile: ToString native runtime.js:550
      23    0.1%    0.5%  Stub: CompareICStub
@@ -90,18 +90,18 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      19    0.1%    0.4%  LazyCompile: *match native string.js:182
      18    0.1%    0.4%  LazyCompile: ~Logger.log /Users/ematiu/devel/node/insight-api/node_modules/winston/lib/winston/logger.js:123
      18    0.1%    0.4%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:238
-     18    0.1%    0.4%  LazyCompile: *Script /Users/ematiu/devel/node/bitcore/lib/Script.js:25
+     18    0.1%    0.4%  LazyCompile: *Script /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:25
      18    0.1%    0.4%  Builtin: A builtin from the snapshot {5}
      17    0.1%    0.3%  Stub: FastNewContextStub
      17    0.1%    0.3%  Stub: FastCloneShallowObjectStub
      17    0.1%    0.3%  LazyCompile: ~indexOf native array.js:1261
-     17    0.1%    0.3%  LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+     17    0.1%    0.3%  LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
      17    0.1%    0.3%  LazyCompile: APPLY_PREPARE native runtime.js:438
-     17    0.1%    0.3%  LazyCompile: *parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+     17    0.1%    0.3%  LazyCompile: *parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
      17    0.1%    0.3%  LazyCompile: *getOptions /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:87
      16    0.1%    0.3%  Stub: FastNewClosureStub
      16    0.1%    0.3%  Stub: CallFunctionStub_Args1
-     16    0.1%    0.3%  LazyCompile: ~Script.capture /Users/ematiu/devel/node/bitcore/lib/Script.js:235
+     16    0.1%    0.3%  LazyCompile: ~Script.capture /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:235
      16    0.1%    0.3%  LazyCompile: hasOwnProperty native v8natives.js:249
      16    0.1%    0.3%  LazyCompile: *indexOf native string.js:118
      16    0.1%    0.3%  LazyCompile: *ceil native math.js:79
@@ -110,8 +110,8 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      15    0.1%    0.3%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/batch.js:66
      15    0.1%    0.3%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:249
      15    0.1%    0.3%  LazyCompile: *extend /Users/ematiu/devel/node/insight-api/node_modules/levelup/node_modules/xtend/index.js:6
-     15    0.1%    0.3%  LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
-     15    0.1%    0.3%  LazyCompile: *exports.formatHashFull /Users/ematiu/devel/node/bitcore/util/util.js:70
+     15    0.1%    0.3%  LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
+     15    0.1%    0.3%  LazyCompile: *exports.formatHashFull /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:70
      15    0.1%    0.3%  LazyCompile: *arrayToHash util.js:193
      15    0.1%    0.3%  LazyCompile: *UseSparseVariant native array.js:111
      15    0.1%    0.3%  LazyCompile: *IsDataDescriptor native v8natives.js:354
@@ -125,7 +125,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      14    0.1%    0.3%  LazyCompile: *<anonymous> util.js:293
      13    0.1%    0.3%  Stub: RecordWriteStub {1}
      13    0.1%    0.3%  Stub: CallFunctionStub
-     13    0.1%    0.3%  LazyCompile: VersionedData /Users/ematiu/devel/node/bitcore/util/VersionedData.js:6
+     13    0.1%    0.3%  LazyCompile: VersionedData /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:6
      13    0.1%    0.3%  LazyCompile: SimpleSlice native array.js:324
      13    0.1%    0.3%  LazyCompile: *keys native v8natives.js:333
      13    0.1%    0.3%  LazyCompile: *ToPropertyDescriptor native v8natives.js:420
@@ -143,26 +143,26 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      11    0.0%    0.2%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:204
      11    0.0%    0.2%  LazyCompile: *ToUint32 native runtime.js:586
      11    0.0%    0.2%  LazyCompile: *BlockDb.has /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:175
-     11    0.0%    0.2%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:97
+     11    0.0%    0.2%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:97
      10    0.0%    0.2%  LazyCompile: ~exports.format util.js:23
      10    0.0%    0.2%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:149
      10    0.0%    0.2%  LazyCompile: NonNumberToNumber native runtime.js:538
      10    0.0%    0.2%  LazyCompile: *iterate /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:148
      10    0.0%    0.2%  LazyCompile: *isDate util.js:448
      10    0.0%    0.2%  LazyCompile: *isArray native array.js:1488
-     10    0.0%    0.2%  LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
+     10    0.0%    0.2%  LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
      10    0.0%    0.2%  LazyCompile: *encodings.utf8.encodings.utf-8.encode /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:40
      10    0.0%    0.2%  LazyCompile: *HistoricSync._fromBuffer /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:143
      10    0.0%    0.2%  LazyCompile: *$Array.enumerable_ native v8natives.js:516
       9    0.0%    0.2%  Stub: ToBooleanStub_UndefinedSpecObject
       9    0.0%    0.2%  Stub: FastNewContextStub {2}
       9    0.0%    0.2%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:345
-      9    0.0%    0.2%  LazyCompile: *serialize /Users/ematiu/devel/node/bitcore/lib/Transaction.js:152
+      9    0.0%    0.2%  LazyCompile: *serialize /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:152
       9    0.0%    0.2%  LazyCompile: *reduceToSingleString util.js:412
       9    0.0%    0.2%  LazyCompile: *isFinite native v8natives.js:103
       9    0.0%    0.2%  LazyCompile: *isBuffer buffer.js:277
       9    0.0%    0.2%  LazyCompile: *isArray util.js:435
-      9    0.0%    0.2%  LazyCompile: *buffer /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:12
+      9    0.0%    0.2%  LazyCompile: *buffer /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:12
       9    0.0%    0.2%  LazyCompile: *Hash.update crypto.js:205
       9    0.0%    0.2%  LazyCompile: *<anonymous> util.js:414
       9    0.0%    0.2%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:248
@@ -174,7 +174,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       8    0.0%    0.2%  LazyCompile: ~async.series.err /Users/ematiu/devel/node/insight-api/lib/Sync.js:155
       8    0.0%    0.2%  LazyCompile: ~async.series.err /Users/ematiu/devel/node/insight-api/lib/Sync.js:146
       8    0.0%    0.2%  LazyCompile: STRING_ADD_LEFT native runtime.js:183
-      8    0.0%    0.2%  LazyCompile: *varIntBuf /Users/ematiu/devel/node/bitcore/util/util.js:444
+      8    0.0%    0.2%  LazyCompile: *varIntBuf /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:444
       8    0.0%    0.2%  LazyCompile: *parseInt native v8natives.js:110
       8    0.0%    0.2%  LazyCompile: *isError util.js:454
       8    0.0%    0.2%  LazyCompile: *RegExpExecNoTests native regexp.js:157
@@ -183,16 +183,16 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       7    0.0%    0.1%  Stub: ToBooleanStub_SmiSpecObjectStringHeapNumber
       7    0.0%    0.1%  Stub: CallFunctionStub {2}
       7    0.0%    0.1%  Stub: ArgumentsAccessStub
-      7    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/bitcore/util/VersionedData.js:23
+      7    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:23
       7    0.0%    0.1%  LazyCompile: toString native messages.js:1248
       7    0.0%    0.1%  LazyCompile: TransactionDb._addScript /Users/ematiu/devel/node/insight-api/lib/TransactionDb.js:462
-      7    0.0%    0.1%  LazyCompile: Address /Users/ematiu/devel/node/bitcore/lib/Address.js:39
+      7    0.0%    0.1%  LazyCompile: Address /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:39
       7    0.0%    0.1%  LazyCompile: *stylizeNoColor util.js:188
       7    0.0%    0.1%  LazyCompile: *isRegExp util.js:442
       7    0.0%    0.1%  LazyCompile: *hasKeys /Users/ematiu/devel/node/insight-api/node_modules/levelup/node_modules/xtend/has-keys.js:3
-      7    0.0%    0.1%  LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Block.js:85
-      7    0.0%    0.1%  LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      7    0.0%    0.1%  LazyCompile: *decodeLEu /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:61
+      7    0.0%    0.1%  LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:85
+      7    0.0%    0.1%  LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      7    0.0%    0.1%  LazyCompile: *decodeLEu /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:61
       7    0.0%    0.1%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:152
       7    0.0%    0.1%  LazyCompile: *$Array.get_ native v8natives.js:546
       7    0.0%    0.1%  LazyCompile: *$Array.configurable_ native v8natives.js:536
@@ -207,7 +207,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       6    0.0%    0.1%  Stub: CompareICStub {1}
       6    0.0%    0.1%  LazyCompile: ~GetPropertyWithoutInvokingMonkeyGetters native messages.js:1203
       6    0.0%    0.1%  LazyCompile: *toLowerCase native string.js:739
-      6    0.0%    0.1%  LazyCompile: *serialize /Users/ematiu/devel/node/bitcore/lib/Transaction.js:56
+      6    0.0%    0.1%  LazyCompile: *serialize /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:56
       6    0.0%    0.1%  LazyCompile: *isValueAsBuffer /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:162
       6    0.0%    0.1%  LazyCompile: *_map /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:53
       6    0.0%    0.1%  LazyCompile: *LevelUP._isOpening /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:155
@@ -223,7 +223,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       5    0.0%    0.1%  Stub: CallFunctionStub_Args5_Recording
       5    0.0%    0.1%  LazyCompile: ~async.series.self.bDb.getTip.oldTip /Users/ematiu/devel/node/insight-api/lib/Sync.js:92
       5    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/Sync.js:157
-      5    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/bitcore/util/VersionedData.js:32
+      5    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:32
       5    0.0%    0.1%  LazyCompile: NonStringToString native runtime.js:558
       5    0.0%    0.1%  LazyCompile: INSTANCE_OF native runtime.js:367
       5    0.0%    0.1%  LazyCompile: ErrorToStringDetectCycle native messages.js:1227
@@ -231,16 +231,16 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       5    0.0%    0.1%  LazyCompile: <anonymous> /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:189
       5    0.0%    0.1%  LazyCompile: *global.setImmediate node.js:192
       5    0.0%    0.1%  LazyCompile: *encodeValue /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:150
-      5    0.0%    0.1%  LazyCompile: *constructor.super /Users/ematiu/devel/node/bitcore/node_modules/soop/soop.js:22
+      5    0.0%    0.1%  LazyCompile: *constructor.super /Users/ematiu/devel/node/csc-bitcore-v0.1/node_modules/soop/soop.js:22
       5    0.0%    0.1%  LazyCompile: *TransactionDb.createFromBlock /Users/ematiu/devel/node/insight-api/lib/TransactionDb.js:582
       5    0.0%    0.1%  LazyCompile: *Sync.storeTipBlock /Users/ematiu/devel/node/insight-api/lib/Sync.js:79
-      5    0.0%    0.1%  LazyCompile: *Script.isPubkey /Users/ematiu/devel/node/bitcore/lib/Script.js:89
+      5    0.0%    0.1%  LazyCompile: *Script.isPubkey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:89
       5    0.0%    0.1%  LazyCompile: *LazyTransform crypto.js:153
       5    0.0%    0.1%  LazyCompile: *IsAccessorDescriptor native v8natives.js:347
       5    0.0%    0.1%  LazyCompile: *HistoricSync.getStandardizedBlock /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:184
-      5    0.0%    0.1%  LazyCompile: *EncodedData.doAsBinary /Users/ematiu/devel/node/bitcore/util/EncodedData.js:75
+      5    0.0%    0.1%  LazyCompile: *EncodedData.doAsBinary /Users/ematiu/devel/node/csc-bitcore-v0.1/util/EncodedData.js:75
       5    0.0%    0.1%  LazyCompile: *Buffer.writeUInt8 buffer.js:792
-      5    0.0%    0.1%  LazyCompile: *Block /Users/ematiu/devel/node/bitcore/lib/Block.js:20
+      5    0.0%    0.1%  LazyCompile: *Block /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:20
       5    0.0%    0.1%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
       5    0.0%    0.1%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:237
       5    0.0%    0.1%  KeyedLoadIC: args_count: 0 {5}
@@ -263,8 +263,8 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       4    0.0%    0.1%  LazyCompile: *winston.(anonymous function) /Users/ematiu/devel/node/insight-api/node_modules/winston/lib/winston.js:84
       4    0.0%    0.1%  LazyCompile: *init _linklist.js:22
       4    0.0%    0.1%  LazyCompile: *hasOwnProperty util.js:577
-      4    0.0%    0.1%  LazyCompile: *VersionedData.payload /Users/ematiu/devel/node/bitcore/util/VersionedData.js:30
-      4    0.0%    0.1%  LazyCompile: *Transaction /Users/ematiu/devel/node/bitcore/lib/Transaction.js:108
+      4    0.0%    0.1%  LazyCompile: *VersionedData.payload /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:30
+      4    0.0%    0.1%  LazyCompile: *Transaction /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:108
       4    0.0%    0.1%  LazyCompile: *BlockDb.setLastFileIndex /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:112
       4    0.0%    0.1%  LazyCompile: *BlockDb.getTip /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:66
       4    0.0%    0.1%  LazyCompile: *$Array.enumerable_ native v8natives.js:520
@@ -282,7 +282,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       3    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/Sync.js:94
       3    0.0%    0.1%  LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:448
       3    0.0%    0.1%  LazyCompile: *test native regexp.js:217
-      3    0.0%    0.1%  LazyCompile: *VersionedData.version /Users/ematiu/devel/node/bitcore/util/VersionedData.js:21
+      3    0.0%    0.1%  LazyCompile: *VersionedData.version /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:21
       3    0.0%    0.1%  LazyCompile: *HistoricSync.getStandardizedTx /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:148
       3    0.0%    0.1%  LazyCompile: *Buffer.writeUInt32LE buffer.js:839
       3    0.0%    0.1%  LazyCompile: *$Array.get_ native v8natives.js:553
@@ -306,10 +306,10 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       2    0.0%    0.0%  Stub: BinaryOpStub {1}
       2    0.0%    0.0%  RegExp: ^(\\/?|)([\\s\\S]*?)((?:\\.{1\,2}|[^\\/]+?|)(\\.[^.\\/]*|))(?:[\\/]*)$
       2    0.0%    0.0%  LazyCompile: ~parseInt native v8natives.js:110
-      2    0.0%    0.0%  LazyCompile: ~parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+      2    0.0%    0.0%  LazyCompile: ~parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
       2    0.0%    0.0%  LazyCompile: ~formatValue util.js:204
       2    0.0%    0.0%  LazyCompile: ~formatArray util.js:333
-      2    0.0%    0.0%  LazyCompile: ~exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
+      2    0.0%    0.0%  LazyCompile: ~exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
       2    0.0%    0.0%  LazyCompile: ~charAt native string.js:66
       2    0.0%    0.0%  LazyCompile: ~async.series.self.processReorg.height /Users/ematiu/devel/node/insight-api/lib/Sync.js:122
       2    0.0%    0.0%  LazyCompile: ~async.series.self.bDb.getNext.oldNext /Users/ematiu/devel/node/insight-api/lib/Sync.js:108
@@ -329,12 +329,12 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       2    0.0%    0.0%  LazyCompile: COMPARE native runtime.js:120
       2    0.0%    0.0%  LazyCompile: *str util.js:383
       2    0.0%    0.0%  LazyCompile: *makeOptions /Users/ematiu/devel/node/insight-api/node_modules/levelup/node_modules/prr/prr.js:25
-      2    0.0%    0.0%  LazyCompile: *getOutpointIndex /Users/ematiu/devel/node/bitcore/lib/Transaction.js:72
-      2    0.0%    0.0%  LazyCompile: *getOutpointHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:65
+      2    0.0%    0.0%  LazyCompile: *getOutpointIndex /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:72
+      2    0.0%    0.0%  LazyCompile: *getOutpointHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:65
       2    0.0%    0.0%  LazyCompile: *async.series /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:605
       2    0.0%    0.0%  LazyCompile: *append _linklist.js:63
       2    0.0%    0.0%  LazyCompile: *IsInconsistentDescriptor native v8natives.js:367
-      2    0.0%    0.0%  LazyCompile: *EncodedData.encoding /Users/ematiu/devel/node/bitcore/util/EncodedData.js:20
+      2    0.0%    0.0%  LazyCompile: *EncodedData.encoding /Users/ematiu/devel/node/csc-bitcore-v0.1/util/EncodedData.js:20
       2    0.0%    0.0%  LazyCompile: *BlockExtractor.getNextBlock /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:90
       2    0.0%    0.0%  LazyCompile: *BlockDb.setTip /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:82
       2    0.0%    0.0%  KeyedStoreIC: hash
@@ -373,8 +373,8 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       1    0.0%    0.0%  LazyCompile: ~async.series.self.cachedLastHash /Users/ematiu/devel/node/insight-api/lib/Sync.js:130
       1    0.0%    0.0%  LazyCompile: ~async.series.self.bDb.getTip.oldTip /Users/ematiu/devel/node/insight-api/lib/Sync.js:99
       1    0.0%    0.0%  LazyCompile: ~ToPropertyDescriptor native v8natives.js:420
-      1    0.0%    0.0%  LazyCompile: ~Script.parse /Users/ematiu/devel/node/bitcore/lib/Script.js:41
-      1    0.0%    0.0%  LazyCompile: ~Script.isMultiSig /Users/ematiu/devel/node/bitcore/lib/Script.js:110
+      1    0.0%    0.0%  LazyCompile: ~Script.parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:41
+      1    0.0%    0.0%  LazyCompile: ~Script.isMultiSig /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:110
       1    0.0%    0.0%  LazyCompile: ~NativeModule.compile node.js:888
       1    0.0%    0.0%  LazyCompile: ~Module._resolveFilename module.js:323
       1    0.0%    0.0%  LazyCompile: ~HistoricSync.getStandardizedTx /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:148
@@ -382,7 +382,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       1    0.0%    0.0%  LazyCompile: ~FromPropertyDescriptor native v8natives.js:373
       1    0.0%    0.0%  LazyCompile: ~Buffer.toString buffer.js:392
       1    0.0%    0.0%  LazyCompile: ~BlockDb.getTip /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:66
-      1    0.0%    0.0%  LazyCompile: ~Block /Users/ematiu/devel/node/bitcore/lib/Block.js:20
+      1    0.0%    0.0%  LazyCompile: ~Block /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:20
       1    0.0%    0.0%  LazyCompile: ~Batch /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/batch.js:13
       1    0.0%    0.0%  LazyCompile: ~BasicJSONSerialize native json.js:274
       1    0.0%    0.0%  LazyCompile: ~ArrayConcat native array.js:471
@@ -400,21 +400,21 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       1    0.0%    0.0%  LazyCompile: *shift _linklist.js:38
       1    0.0%    0.0%  LazyCompile: *processImmediate timers.js:320
       1    0.0%    0.0%  LazyCompile: *init /Users/ematiu/devel/node/insight-api/node_modules/levelup/node_modules/errno/custom.js:3
-      1    0.0%    0.0%  LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:194
+      1    0.0%    0.0%  LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:194
       1    0.0%    0.0%  LazyCompile: *getCallback /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:30
       1    0.0%    0.0%  LazyCompile: *exports.dirname path.js:415
-      1    0.0%    0.0%  LazyCompile: *eof /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:56
+      1    0.0%    0.0%  LazyCompile: *eof /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:56
       1    0.0%    0.0%  LazyCompile: *dispatchError /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:129
-      1    0.0%    0.0%  LazyCompile: *calcHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:183
+      1    0.0%    0.0%  LazyCompile: *calcHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:183
       1    0.0%    0.0%  LazyCompile: *async.whilst /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:676
-      1    0.0%    0.0%  LazyCompile: *Parser.varInt /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:123
+      1    0.0%    0.0%  LazyCompile: *Parser.varInt /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:123
       1    0.0%    0.0%  LazyCompile: *LevelUP.isOpen /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:151
       1    0.0%    0.0%  LazyCompile: *DefineOwnProperty native v8natives.js:924
       1    0.0%    0.0%  LazyCompile: *BlockExtractor.readCurrentFileSync /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:59
       1    0.0%    0.0%  LazyCompile: *BlockDb.setNext /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:153
       1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:316
       1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:192
-      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/bitcore/lib/Transaction.js:160
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:160
       1    0.0%    0.0%  KeyedStoreIC: createIfMissing {1}
       1    0.0%    0.0%  KeyedStoreIC: args_count: 0 {11}
       1    0.0%    0.0%  KeyedStoreIC: args_count: 0 {10}
@@ -425,7 +425,7 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       1    0.0%    0.0%  KeyedLoadIC: cause
       1    0.0%    0.0%  KeyedLoadIC: args_count: 0 {6}
       1    0.0%    0.0%  KeyedLoadIC: args_count: 0 {1}
-      1    0.0%    0.0%  Function: <anonymous> /Users/ematiu/devel/node/bitcore/node_modules/bignum/index.js:1
+      1    0.0%    0.0%  Function: <anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/node_modules/bignum/index.js:1
       1    0.0%    0.0%  CallMegamorphic: args_count: 1
       1    0.0%    0.0%  Builtin: A builtin from the snapshot {8}
       1    0.0%    0.0%  Builtin: A builtin from the snapshot {14}
@@ -582,18 +582,18 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
     209  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:248
     189    2.1%    LazyCompile: *Hash crypto.js:185
     187   98.9%      LazyCompile: *Hash crypto.js:185
-    112   59.9%        LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
-     83   74.1%          LazyCompile: *parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+    112   59.9%        LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
+     83   74.1%          LazyCompile: *parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
      83  100.0%            LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
-     20   17.9%          LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Block.js:85
+     20   17.9%          LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:85
      20  100.0%            LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
-      7    6.3%          LazyCompile: *calcHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:183
-      7  100.0%            LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/bitcore/lib/Transaction.js:532
-     41   21.9%        LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
-     41  100.0%          LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-     41  100.0%            LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
-     29   15.5%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-     29  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      7    6.3%          LazyCompile: *calcHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:183
+      7  100.0%            LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:532
+     41   21.9%        LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
+     41  100.0%          LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+     41  100.0%            LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
+     29   15.5%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+     29  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
      29  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
 
    8405   34.8%  /usr/lib/system/libsystem_kernel.dylib
@@ -607,23 +607,23 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      25  100.0%      LazyCompile: *dispatchError /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:129
      25  100.0%        LazyCompile: <anonymous> /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:189
      20    3.3%    LazyCompile: *Hash.digest crypto.js:214
-     12   60.0%      LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
-     10   83.3%        LazyCompile: *parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+     12   60.0%      LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
+     10   83.3%        LazyCompile: *parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
      10  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
      10  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      1    8.3%        LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Block.js:85
+      1    8.3%        LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:85
       1  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
       1  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      1    8.3%        LazyCompile: *calcHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:183
-      1  100.0%          LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/bitcore/lib/Transaction.js:532
-      1  100.0%            LazyCompile: ~parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
-      5   25.0%      LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      5  100.0%        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      1    8.3%        LazyCompile: *calcHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:183
+      1  100.0%          LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:532
+      1  100.0%            LazyCompile: ~parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
+      5   25.0%      LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      5  100.0%        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       5  100.0%          LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
       5  100.0%            LazyCompile: *map native array.js:1215
-      3   15.0%      LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
-      3  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      3  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      3   15.0%      LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
+      3  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      3  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       3  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
      15    2.5%    LazyCompile: *extend /Users/ematiu/devel/node/insight-api/node_modules/levelup/node_modules/xtend/index.js:6
      15  100.0%      LazyCompile: *getOptions /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/util.js:87
@@ -678,30 +678,30 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       1   10.0%          LazyCompile: *fs.statSync fs.js:682
       1  100.0%            LazyCompile: statPath module.js:88
      34    6.7%    LazyCompile: *Hash.digest crypto.js:214
-     19   55.9%      LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
-     10   52.6%        LazyCompile: *parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+     19   55.9%      LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
+     10   52.6%        LazyCompile: *parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
      10  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
      10  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      7   36.8%        LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Block.js:85
+      7   36.8%        LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:85
       7  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
       7  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      1    5.3%        LazyCompile: ~parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+      1    5.3%        LazyCompile: ~parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
       1  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
       1  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      1    5.3%        LazyCompile: *calcHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:183
-      1  100.0%          LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/bitcore/lib/Transaction.js:532
-      1  100.0%            LazyCompile: ~parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
-      7   20.6%      LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      7  100.0%        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      1    5.3%        LazyCompile: *calcHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:183
+      1  100.0%          LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:532
+      1  100.0%            LazyCompile: ~parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
+      7   20.6%      LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      7  100.0%        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       7  100.0%          LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
       7  100.0%            LazyCompile: *map native array.js:1215
-      7   20.6%      LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
-      7  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      7  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      7   20.6%      LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
+      7  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      7  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       7  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
-      1    2.9%      LazyCompile: ~exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
-      1  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      1  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      1    2.9%      LazyCompile: ~exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
+      1  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      1  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       1  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
      33    6.5%    LazyCompile: ~LevelUP.batch /Users/ematiu/devel/node/insight-api/node_modules/levelup/lib/levelup.js:285
      30   90.9%      LazyCompile: TransactionDb.createFromObjs /Users/ematiu/devel/node/insight-api/lib/TransactionDb.js:552
@@ -722,23 +722,23 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
       4  100.0%          LazyCompile: *HistoricSync.getStandardizedTx /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:148
       4  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:192
      22    4.3%    LazyCompile: *Buffer.write buffer.js:315
-     12   54.5%      LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
-      8   66.7%        LazyCompile: *parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+     12   54.5%      LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
+      8   66.7%        LazyCompile: *parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
       8  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
       8  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      3   25.0%        LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Block.js:85
+      3   25.0%        LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:85
       3  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
       3  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      1    8.3%        LazyCompile: ~parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
+      1    8.3%        LazyCompile: ~parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
       1  100.0%          LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/BlockExtractor.js:142
       1  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/node_modules/async/lib/async.js:608
-      6   27.3%      LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      6  100.0%        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      6   27.3%      LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      6  100.0%        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       6  100.0%          LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
       6  100.0%            LazyCompile: *map native array.js:1215
-      4   18.2%      LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
-      4  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-      4  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
+      4   18.2%      LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
+      4  100.0%        LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+      4  100.0%          LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
       4  100.0%            LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
 
 
@@ -1072,9 +1072,9 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
    1270    5.3%      3    0.0%                                                                                  LazyCompile: *HistoricSync.getStandardizedTx /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:148
    1178    4.9%     10    0.0%                                                                                    LazyCompile: *map native array.js:1215
     975    4.0%     13    0.1%                                                                                      LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:164
-    711    2.9%     17    0.1%                                                                                        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/bitcore/lib/Address.js:97
-    352    1.5%      7    0.0%                                                                                          LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:54
-    166    0.7%      6    0.0%                                                                                            LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
+    711    2.9%     17    0.1%                                                                                        LazyCompile: ~Address.fromScriptPubKey /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:97
+    352    1.5%      7    0.0%                                                                                          LazyCompile: *exports.sha256ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:54
+    166    0.7%      6    0.0%                                                                                            LazyCompile: *exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
      50    0.2%      0    0.0%                                                                                              LazyCompile: *Hash crypto.js:185
      50    0.2%      2    0.0%                                                                                                LazyCompile: *Hash crypto.js:185
      41    0.2%     41    0.2%                                                                                                  /usr/local/bin/node
@@ -1086,32 +1086,32 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      36    0.1%      4    0.0%                                                                                              LazyCompile: *Hash crypto.js:185
      29    0.1%     29    0.1%                                                                                                /usr/local/bin/node
      34    0.1%      0    0.0%                                                                                            LazyCompile: *Hash.digest crypto.js:214
-     26    0.1%      1    0.0%                                                                                            LazyCompile: ~exports.ripe160 /Users/ematiu/devel/node/bitcore/util/util.js:29
-    222    0.9%      6    0.0%                                                                                          LazyCompile: Address /Users/ematiu/devel/node/bitcore/lib/Address.js:39
-    211    0.9%      5    0.0%                                                                                            LazyCompile: *constructor.super /Users/ematiu/devel/node/bitcore/node_modules/soop/soop.js:22
-    171    0.7%     13    0.1%                                                                                              LazyCompile: VersionedData /Users/ematiu/devel/node/bitcore/util/VersionedData.js:6
+     26    0.1%      1    0.0%                                                                                            LazyCompile: ~exports.ripe160 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:29
+    222    0.9%      6    0.0%                                                                                          LazyCompile: Address /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Address.js:39
+    211    0.9%      5    0.0%                                                                                            LazyCompile: *constructor.super /Users/ematiu/devel/node/csc-bitcore-v0.1/node_modules/soop/soop.js:22
+    171    0.7%     13    0.1%                                                                                              LazyCompile: VersionedData /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:6
      68    0.3%     68    0.3%                                                                                                /usr/local/bin/node
-     46    0.2%      4    0.0%                                                                                                LazyCompile: *VersionedData.payload /Users/ematiu/devel/node/bitcore/util/VersionedData.js:30
-     37    0.2%      2    0.0%                                                                                                  LazyCompile: *EncodedData.doAsBinary /Users/ematiu/devel/node/bitcore/util/EncodedData.js:75
-     30    0.1%      5    0.0%                                                                                                    LazyCompile: ~<anonymous> /Users/ematiu/devel/node/bitcore/util/VersionedData.js:32
+     46    0.2%      4    0.0%                                                                                                LazyCompile: *VersionedData.payload /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:30
+     37    0.2%      2    0.0%                                                                                                  LazyCompile: *EncodedData.doAsBinary /Users/ematiu/devel/node/csc-bitcore-v0.1/util/EncodedData.js:75
+     30    0.1%      5    0.0%                                                                                                    LazyCompile: ~<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:32
      25    0.1%      6    0.0%                                                                                                      LazyCompile: *Buffer.copy buffer.js:509
-     28    0.1%      2    0.0%                                                                                                LazyCompile: *VersionedData.version /Users/ematiu/devel/node/bitcore/util/VersionedData.js:21
+     28    0.1%      2    0.0%                                                                                                LazyCompile: *VersionedData.version /Users/ematiu/devel/node/csc-bitcore-v0.1/util/VersionedData.js:21
      49    0.2%     49    0.2%                                                                                          /usr/local/bin/node
-     42    0.2%     16    0.1%                                                                                          LazyCompile: ~Script.capture /Users/ematiu/devel/node/bitcore/lib/Script.js:235
+     42    0.2%     16    0.1%                                                                                          LazyCompile: ~Script.capture /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:235
     122    0.5%     10    0.0%                                                                                        LazyCompile: *HistoricSync._fromBuffer /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:143
      64    0.3%      5    0.0%                                                                                          LazyCompile: *Buffer.toString buffer.js:392
-    117    0.5%     16    0.1%                                                                                        LazyCompile: *Script /Users/ematiu/devel/node/bitcore/lib/Script.js:25
-     66    0.3%      3    0.0%                                                                                          LazyCompile: *<anonymous> /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:97
-     60    0.2%      0    0.0%                                                                                            LazyCompile: *buffer /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:12
+    117    0.5%     16    0.1%                                                                                        LazyCompile: *Script /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:25
+     66    0.3%      3    0.0%                                                                                          LazyCompile: *<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:97
+     60    0.2%      0    0.0%                                                                                            LazyCompile: *buffer /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:12
      60    0.2%      8    0.0%                                                                                              LazyCompile: *Buffer.slice buffer.js:539
      31    0.1%     31    0.1%                                                                                                /usr/local/bin/node
     126    0.5%      7    0.0%                                                                                      LazyCompile: *<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:152
-     53    0.2%     23    0.1%                                                                                        LazyCompile: *isCoinBase /Users/ematiu/devel/node/bitcore/lib/Transaction.js:49
+     53    0.2%     23    0.1%                                                                                        LazyCompile: *isCoinBase /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:49
      27    0.1%      2    0.0%                                                                                        LazyCompile: *Buffer.toString buffer.js:392
      48    0.2%     48    0.2%                                                                                      /usr/local/bin/node
-     62    0.3%      6    0.0%                                                                                    LazyCompile: *exports.formatHashFull /Users/ematiu/devel/node/bitcore/util/util.js:70
+     62    0.3%      6    0.0%                                                                                    LazyCompile: *exports.formatHashFull /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:70
      25    0.1%      0    0.0%                                                                                LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:192
-     50    0.2%      7    0.0%                                                                              LazyCompile: *exports.formatHashFull /Users/ematiu/devel/node/bitcore/util/util.js:70
+     50    0.2%      7    0.0%                                                                              LazyCompile: *exports.formatHashFull /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:70
     694    2.9%      1    0.0%                                                                            LazyCompile: *BlockDb.setLastFileIndex /Users/ematiu/devel/node/insight-api/lib/BlockDb.js:112
     690    2.9%      0    0.0%                                                                              LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:207
     690    2.9%      2    0.0%                                                                                LazyCompile: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/HistoricSync.js:440
@@ -1135,8 +1135,8 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      52    0.2%      9    0.0%                                                                                          LazyCompile: *map native array.js:1215
      27    0.1%     27    0.1%                                                                                        /usr/local/bin/node
      31    0.1%     31    0.1%                                                                                    /usr/local/bin/node
-    715    3.0%     17    0.1%                                                                LazyCompile: *parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
-    372    1.5%      7    0.0%                                                                  LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
+    715    3.0%     17    0.1%                                                                LazyCompile: *parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
+    372    1.5%      7    0.0%                                                                  LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
     119    0.5%      0    0.0%                                                                    LazyCompile: *Hash crypto.js:185
     110    0.5%      7    0.0%                                                                      LazyCompile: *Hash crypto.js:185
      83    0.3%     83    0.3%                                                                        /usr/local/bin/node
@@ -1146,29 +1146,29 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      38    0.2%     38    0.2%                                                                      /usr/local/bin/node
      51    0.2%      6    0.0%                                                                    LazyCompile: *Hash.update crypto.js:205
      42    0.2%     42    0.2%                                                                      /usr/local/bin/node
-    197    0.8%      8    0.0%                                                                  LazyCompile: *serialize /Users/ematiu/devel/node/bitcore/lib/Transaction.js:152
+    197    0.8%      8    0.0%                                                                  LazyCompile: *serialize /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:152
     126    0.5%      8    0.0%                                                                    LazyCompile: *forEach native array.js:1087
-     63    0.3%      1    0.0%                                                                      LazyCompile: *<anonymous> /Users/ematiu/devel/node/bitcore/lib/Transaction.js:160
-     62    0.3%      5    0.0%                                                                        LazyCompile: *serialize /Users/ematiu/devel/node/bitcore/lib/Transaction.js:56
+     63    0.3%      1    0.0%                                                                      LazyCompile: *<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:160
+     62    0.3%      5    0.0%                                                                        LazyCompile: *serialize /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:56
      38    0.2%      5    0.0%                                                                          LazyCompile: *Buffer.concat buffer.js:476
-     43    0.2%      0    0.0%                                                                      LazyCompile: *serialize /Users/ematiu/devel/node/bitcore/lib/Transaction.js:103
+     43    0.2%      0    0.0%                                                                      LazyCompile: *serialize /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:103
      26    0.1%      5    0.0%                                                                        LazyCompile: *Buffer.concat buffer.js:476
      27    0.1%      2    0.0%                                                                    LazyCompile: *Buffer.concat buffer.js:476
-     45    0.2%      2    0.0%                                                                  LazyCompile: *buffer /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:12
+     45    0.2%      2    0.0%                                                                  LazyCompile: *buffer /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:12
      43    0.2%      8    0.0%                                                                    LazyCompile: *Buffer.slice buffer.js:539
-     36    0.1%      1    0.0%                                                                  LazyCompile: *<anonymous> /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:97
-     28    0.1%      1    0.0%                                                                    LazyCompile: *buffer /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:12
+     36    0.1%      1    0.0%                                                                  LazyCompile: *<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:97
+     28    0.1%      1    0.0%                                                                    LazyCompile: *buffer /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:12
      27    0.1%      4    0.0%                                                                      LazyCompile: *Buffer.slice buffer.js:539
-     26    0.1%      1    0.0%                                                                  LazyCompile: *Parser.varInt /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:123
-     25    0.1%      1    0.0%                                                                    LazyCompile: *<anonymous> /Users/ematiu/devel/node/bitcore/util/BinaryParser.js:97
-    137    0.6%      5    0.0%                                                                LazyCompile: *getHash /Users/ematiu/devel/node/bitcore/lib/Block.js:85
-    119    0.5%      5    0.0%                                                                  LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/bitcore/util/util.js:50
+     26    0.1%      1    0.0%                                                                  LazyCompile: *Parser.varInt /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:123
+     25    0.1%      1    0.0%                                                                    LazyCompile: *<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/util/BinaryParser.js:97
+    137    0.6%      5    0.0%                                                                LazyCompile: *getHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:85
+    119    0.5%      5    0.0%                                                                  LazyCompile: *exports.twoSha256 /Users/ematiu/devel/node/csc-bitcore-v0.1/util/util.js:50
      29    0.1%      1    0.0%                                                                    LazyCompile: *Hash.digest crypto.js:214
      26    0.1%      5    0.0%                                                                    LazyCompile: *Buffer.write buffer.js:315
-     78    0.3%      2    0.0%                                                                LazyCompile: ~parse /Users/ematiu/devel/node/bitcore/lib/Block.js:51
-     55    0.2%      0    0.0%                                                                  LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/bitcore/lib/Transaction.js:532
-     46    0.2%      1    0.0%                                                                    LazyCompile: *calcHash /Users/ematiu/devel/node/bitcore/lib/Transaction.js:183
-     25    0.1%      0    0.0%                                                                      LazyCompile: *serialize /Users/ematiu/devel/node/bitcore/lib/Transaction.js:152
+     78    0.3%      2    0.0%                                                                LazyCompile: ~parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Block.js:51
+     55    0.2%      0    0.0%                                                                  LazyCompile: ~Transaction.parse /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:532
+     46    0.2%      1    0.0%                                                                    LazyCompile: *calcHash /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:183
+     25    0.1%      0    0.0%                                                                      LazyCompile: *serialize /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Transaction.js:152
 
    1930    8.0%   1930    8.0%  /usr/local/bin/node
 
@@ -1283,14 +1283,14 @@ Statistical profiling result from v8.log, (24141 ticks, 452 unaccounted, 0 exclu
      28    0.1%      0    0.0%                                                      LazyCompile: ~Module._extensions..js module.js:472
      28    0.1%      0    0.0%                                                        LazyCompile: ~Module._compile module.js:374
      28    0.1%      0    0.0%                                                          Function: ~<anonymous> /Users/ematiu/devel/node/insight-api/lib/logger.js:1
-     49    0.2%      0    0.0%                                LazyCompile: ~Object.defineProperty.get /Users/ematiu/devel/node/bitcore/bitcore.js:10
+     49    0.2%      0    0.0%                                LazyCompile: ~Object.defineProperty.get /Users/ematiu/devel/node/csc-bitcore-v0.1/bitcore.js:10
      49    0.2%      0    0.0%                                  LazyCompile: ~require module.js:379
      49    0.2%      0    0.0%                                    LazyCompile: ~Module.require module.js:361
      49    0.2%      0    0.0%                                      LazyCompile: Module._load module.js:275
      47    0.2%      0    0.0%                                        LazyCompile: ~Module.load module.js:346
      47    0.2%      0    0.0%                                          LazyCompile: ~Module._extensions..js module.js:472
      47    0.2%      0    0.0%                                            LazyCompile: ~Module._compile module.js:374
-     29    0.1%      0    0.0%                                              Function: ~<anonymous> /Users/ematiu/devel/node/bitcore/lib/Script.js:1
+     29    0.1%      0    0.0%                                              Function: ~<anonymous> /Users/ematiu/devel/node/csc-bitcore-v0.1/lib/Script.js:1
      29    0.1%      0    0.0%                                                LazyCompile: ~require module.js:379
      29    0.1%      0    0.0%                                                  LazyCompile: ~Module.require module.js:361
      29    0.1%      0    0.0%                                                    LazyCompile: Module._load module.js:275
