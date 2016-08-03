@@ -10,7 +10,7 @@ var assert        = require('assert'),
   util            = require('csc-bitcore-v0.1/util/util');
 
   var be = new BlockExtractor(config.bitcoind.dataDir, config.network);
-  var network = config.network === 'testnet' ? networks.testnet: networks.cscnet;
+  var network = config.network === 'testnet' ? networks.testnet: networks.livenet;
 //  console.log('[read_block.js.13]', be.nextFile() );
 
   var c=0;

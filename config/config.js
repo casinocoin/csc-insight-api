@@ -25,12 +25,6 @@ if (process.env.INSIGHT_NETWORK === 'livenet') {
   env = 'livenet';
   db = home;
   port = '3000';
-  b_port = '8332';
-  p2p_port = '8333';
-} else if (process.env.INSIGHT_NETWORK === 'cscnet') {
-  env = 'cscnet';
-  db = home;
-  port = '3000';
   b_port = '9432';
   p2p_port = '47950';
 } else {
@@ -55,7 +49,7 @@ switch (process.env.NODE_ENV) {
     break;
 }
 
-var network = process.env.INSIGHT_NETWORK || 'cscnet';
+var network = process.env.INSIGHT_NETWORK || 'livenet';
 
 var dataDir = process.env.CASINOCOIND_DATADIR;
 var isWin = /^win/.test(process.platform);
